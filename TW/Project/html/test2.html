@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second test</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <title>Number Memory</title>
+    <link rel="stylesheet" href="../css/test2.css">
 </head>
 <body>
     <header>
@@ -18,14 +18,33 @@
             <nav>
                 <li><span><a href="../index.html">Home</a></span></li>
                 <li><span><a href="../html/test1.html">Card game</a></span></li>
-                <li><span><a href="">Test2</a></span></li>
-                <li><span><a href="" class="button">Contact</a></span></li>
+                <li><span><a href="">Number Memory</a></span></li>
+                <li><span><div class="dropdown">
+                    <button class="dropbtn">Contact</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div></span></li>
             </nav>
         </div>
     </header>
 
     <main>
-        <h1>Test 2</h1>
+        <div class="content">
+            <div class="textBox">
+                <h1>Number Memory</h1><br>
+            </div>
+        </div>
+
+        <div class="game">
+            <button id="randomGen" onclick="generateRandomNumber()">Random</button>
+            <p id="random"></p>
+            Number:<input type="text" id="num1">
+        </div>
+
     </main>
+    <script src="../js/test2.js"></script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "tw",
+  "version": "1.0.0",
+  "description": "Memory_test_tw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robert-2306/TW.git#main"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robert-2306/TW/issues"
+  },
+  "homepage": "https://github.com/Robert-2306/TW/tree/main#readme"
+}

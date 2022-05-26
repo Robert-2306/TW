@@ -7,7 +7,7 @@
     <title>Number Memory</title>
     <link rel="stylesheet" href="../css/test2.css">
 </head>
-<body>
+<body onload="onloadFunction()">
     <header>
         <div class="inner">
             <div class="logo">
@@ -39,9 +39,13 @@
         </div>
 
         <div class="game">
-            <button id="randomGen" onclick="generateRandomNumber()">Random</button>
+            <button id="randomGen" onclick="generateRandomNumber()">Generate Random Number</button>
             <p id="random"></p>
-            Number:<input type="text" id="num1">
+            <button id="ready" onclick="myFunction()">Ready!</button><br>
+            <span id="inputBox">Number: <input type="text" id="num1" value=""></span> 
+            <button id="submit" onclick="submitInput()">Submit!</button>
+            <h2 id="demo"></h2>
+            <a href="" id="again">Play again</a>
         </div>
 
     </main>

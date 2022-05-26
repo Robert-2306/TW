@@ -158,6 +158,48 @@ main .game #randomGen{
     border-radius: 4px;
 }
 
+main .game #ready{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #1ab26b;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+main .game #submit{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #1ab26b;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
 main .game #num1{
     font-size: 1em;
+}
+
+main .game #demo{
+    margin-bottom: 50px;    
+    font-family: 'Poppins', sans-serif;
+}
+
+main .game a{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #1ab26b;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
 }

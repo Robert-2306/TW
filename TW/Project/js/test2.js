@@ -5,7 +5,7 @@ function onloadFunction(){
     document.getElementById("again").style.visibility = "hidden";
 }
 
-var random = Math.floor(Math.random() * 10000);
+var random = Math.floor(Math.random() * 10000000);
 
 function generateRandomNumber(){
     document.getElementById("random").innerHTML = random;
@@ -22,6 +22,7 @@ function myFunction() {
 }
 
 function submitInput(){
+    document.getElementById("submit").style.visibility = "hidden";
     let x = document.getElementById("num1").value;
     if(random==x){
         document.getElementById("demo").innerHTML = "Well done!";
